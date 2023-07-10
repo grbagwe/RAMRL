@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-03-02 16:39:14 by Eclipse SUMO netedit Version v1_12_0+1067-9f738abf540
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <flow id="flow_0" begin="0.00" departLane="random" departSpeed="random"
+          color="white" from="e12" to="e35" end="3600.00" probability="0.52777777777" departPos="base"/>
+
+<!--    <vType id="rl_car" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="70"/>-->
+
+<!--    <flow id="ramp_route" begin="0.00" departSpeed="10.00" color="red" fromJunction="n4" toJunction="n3" end="3600.00" vehsPerHour="600.00"/>-->
+    <route id="route_ramp" edges="e42 e23 e35" />
+<!--    <vehicle id="rl_car_0" type="rl_car" route="route_ramp"  depart="10" color="1,0,0"/>-->
+
+
+</routes>

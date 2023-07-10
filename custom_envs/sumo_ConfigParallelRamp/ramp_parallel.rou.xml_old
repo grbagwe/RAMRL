@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-03-02 16:39:14 by Eclipse SUMO netedit Version v1_12_0+1067-9f738abf540
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <vType id="KraussPassenger" length="5" minGap="1" carFollowModel="Krauss" tau="1.0"   sigma="0.2"/>
+
+    <vType id="IDMPassenger" length="5" minGap="1" carFollowModel="Krauss" tau="1.0"   sigma="0.2" />
+
+    <flow id="flow_0" begin="0.00" departLane="random" departSpeed="max" type="KraussPassenger"
+          color="white" from="e12" to="e35" end="3600.00" probability="0.32" departPos="base" />
+
+<!--    <flow id="flow_1" type= "KraussPassenger" begin="0.00" departLane="random" departSpeed="max"-->
+<!--          color="white" from="e12" to="e35" end="3600.00" probability="0.3" departPos="base"/>-->
+    <flow id="flow_2" type= "KraussPassenger" begin="0.00" departLane="random" departSpeed="max"
+          color="white" from="e12" to="e35" end="3600.00" probability="0.32"  departPos="base"/>
+
+    <vehicle id="1" type="KraussPassenger" depart="0" color="white" departPos="20" >
+      <route edges="e12 e23 e52 e35"/>
+    </vehicle>
+
+<vehicle id="2" type="KraussPassenger" depart="0" color="white" departPos="40" >
+      <route edges="e12 e23 e52 e35"/>
+    </vehicle>
+
+<vehicle id="4" type="KraussPassenger" depart="0" color="white" departPos="80" >
+      <route edges="e12 e23  e52 e35"/>
+    </vehicle>
+
+
+
+<vehicle id="3126" type="KraussPassenger" depart="0" color="white" departPos="140" >
+      <route edges="e12 e23  e52 e35"/>
+    </vehicle>
+
+
+<vehicle id="1346" type="KraussPassenger" depart="0" color="white" departPos="160" >
+      <route edges="e12 e23  e52 e35"/>
+    </vehicle>
+
+
+<!--<vehicle id="632112" type="KraussPassenger" depart="0" color="white" departPos="180" >-->
+<!--      <route edges="e12 e23 e35"/>-->
+<!--    </vehicle>-->
+
+
+<vehicle id="31216" type="KraussPassenger" depart="0" color="white" departPos="200" >
+      <route edges="e12 e23  e52 e35"/>
+    </vehicle>
+
+<!--<vehicle id="54326" type="KraussPassenger" depart="0" color="white" departPos="240" >-->
+<!--      <route edges="e12 e23 e35"/>-->
+<!--    </vehicle>-->
+
+<vehicle id="12316" type="KraussPassenger" depart="0" color="white" departPos="260" >
+      <route edges="e12 e23  e52 e35"/>
+    </vehicle>
+
+
+<!--<vehicle id="6214" type="KraussPassenger" depart="0" color="white" departPos="280" >-->
+<!--      <route edges="e12 e23 e35"/>-->
+<!--    </vehicle>-->
+
+
+
+<vehicle id="22132" type="KraussPassenger" departLane="1" depart="0" color="white" departPos="0" >
+      <route edges="e12 e23  e52 e35"/>
+    </vehicle>
+
+
+<!--<vehicle id="331231" type="KraussPassenger" departLane="1" depart="0" color="white" departPos="60" >-->
+<!--      <route edges="e12 e23 e35"/>-->
+<!--    </vehicle>-->
+
+
+<vehicle id="431231" type="KraussPassenger" departLane="1"  depart="0" color="white" departPos="80" >
+      <route edges="e12 e23  e52 e35"/>
+    </vehicle>
+
+
+<!--<vehicle id="531231" type="KraussPassenger" depart="0" departLane="1" color="white" departPos="100" >-->
+<!--      <route edges="e12 e23 e35"/>-->
+<!--    </vehicle>-->
+<!--	    -->
+<vehicle id="631231" type="KraussPassenger" depart="0" departLane="1" color="white" departPos="120" >
+      <route edges="e12 e23  e52 e35"/>
+    </vehicle>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--    <vType id="rl_car" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="70"/>-->
+
+<!--    <flow id="ramp_route" begin="0.00" departSpeed="10.00" color="red" fromJunction="n4" toJunction="n3" end="3600.00" vehsPerHour="600.00"/>-->
+    <route id="route_ramp" edges="e42 e23 e52 e35" />
+
+
+
+
+</routes>
+<!--
+<routes>
+    <vType id="type1" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="70"/>
+
+    <route id="route0" color="1,1,0" edges="beg middle end rend"/>
+
+    <vehicle id="0" type="type1" route="route0" depart="0" color="1,0,0"/>
+    <vehicle id="1" type="type1" route="route0" depart="0" color="0,1,0"/>
+
+</routes>-->
+
+

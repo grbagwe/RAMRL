@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-04-28 01:06:27 by Eclipse SUMO sumo Version v1_12_0+1067-9f738abf540
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Ramp_2.net.xml"/>
+        <route-files value="ramp_2.rou.xml"/>
+        <junction-taz value="true"/>
+    </input>
+
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+</configuration>
